@@ -1,0 +1,10 @@
+<?php
+for ($i=300;$i<350;$i++){
+$a=9.1*pow(10, $i);
+if($a == INF){
+echo "changes to infinity above $b";
+break;
+}
+$b=$a;
+}
+?> 
